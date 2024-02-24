@@ -1,10 +1,9 @@
 <?php
 
-    namespace App\Pagamento;
+    namespace CreditCard\Models;
 
-    use App\Model;
-    use App\Database;
+    use CreditCard\Config\Sql;
 
-    class Pagamento extends Model {
+    class Pagamento {
         // Lógica
     }

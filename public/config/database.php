@@ -1,6 +1,6 @@
 <?php 
 
-    namespace App\Database;
+    namespace CreditCard\Config;
 
 	class Sql {
 

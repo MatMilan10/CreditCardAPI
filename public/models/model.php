@@ -1,6 +1,6 @@
 <?php 
 
-    namespace App;
+    namespace CreditCard\Models;
 
     class Model {
         private $values = [];

@@ -1,6 +1,8 @@
 <?php
 
-    namespace App\Controllers;
+    namespace CreditCard\Controllers;
+
+    use CreditCard\Config\Sql;
 
     class PagamentosController {
         

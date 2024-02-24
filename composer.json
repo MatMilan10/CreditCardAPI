@@ -8,16 +8,16 @@
             "email": "mkmate7@gmail.com"
         }
     ],
-    "autoload": {
-        "classmap": [
-            "app/"
-        ]
-    },
     "require-dev": {
         "phpunit/phpunit": "^11"
     },
     "require": {
         "slim/slim": "4.*",
         "slim/psr7": "^1.6"
+    },
+    "autoLoad": {
+        "psr-4": {
+            "CreditCard\\": "public\\"
+        }
     }
 }
