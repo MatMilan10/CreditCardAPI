@@ -8,6 +8,4 @@
 
     require __DIR__ . '/routes/web.php';
 
-    echo phpinfo();
-
     $app->run();
