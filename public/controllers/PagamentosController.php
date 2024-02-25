@@ -66,7 +66,7 @@
 
         }
 
-        public function verPagamento($request, $response, $args) {
+        public function verPagamento($response, $args) {
 
             $id = $args['id'];
 
