@@ -10,12 +10,12 @@
 
             $data = $request->getParsedBody();
 
-            // Verica se os dados foram fornecidos
+            // Verifica se os dados foram fornecidos
             if (empty($data)) {
                 return $response->withStatus(400)->withJson(['error' => 'Payment not provided in the request body']);
             }
 
-            // Verifique se os campos obrigatórios estão presentes
+            // Verifica se os campos obrigatórios estão presentes
             $requiredFields = ['transaction_amount', 'installments', 'token', 'payment_method_id', 'payer'];
             foreach ($requiredFields as $field) {
                 if (!isset($data[$field])) {
@@ -28,7 +28,7 @@
             $data['payer']['type'] = 'customer';
             $data['notification_url'] = 'https://webhook.site';
 
-            // Crie uma instância da classe Sql
+            // Cria uma instância da classe Sql
             $sql = new Sql();
 
             // Insere o pagamento no Banco de Dados
