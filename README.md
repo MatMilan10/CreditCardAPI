@@ -10,6 +10,7 @@ API REST de pagamentos de cartão de crédito
 **Passo a Passo**
 O primeiro passo é instalar os pré requisitos na maquina para conseguir rodar a aplicação. Logo após a instalação seguir o passo a passo abaixo.
 
+**Back-end**
 ```
 # Criar e levantar os containers
 docker-compose up -d
@@ -19,7 +20,10 @@ docker-compose ps
 
 # Instalação dos Frameworks via Composer
 composer install
+```
 
+**Front-end**
+```
 # Instalação da SDK do Mercado Pago
 npm install @mercadopago/sdk-react
 
