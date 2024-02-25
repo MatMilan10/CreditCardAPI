@@ -12,6 +12,9 @@ O primeiro passo é instalar os pré requisitos na maquina para conseguir rodar 
 
 **Back-end**
 ```
+# Ir até o diretório
+cd backend
+
 # Criar e levantar os containers
 docker-compose up -d
 
@@ -24,6 +27,9 @@ composer install
 
 **Front-end**
 ```
+# Ir até o diretório (Caso tenha que voltar a pasta, utilizar o comando -> cd ..)
+cd frontend
+
 # Instalação da SDK do Mercado Pago
 npm install @mercadopago/sdk-react
 
