@@ -1,5 +1,7 @@
 CREATE DATABASE credit_card_api;
 
+USE credit_card_api;
+
 CREATE TABLE payments_info (
     id VARCHAR(50) PRIMARY KEY AUTO_INCREMENT COMMENT 'Identificador único de cada pagamento',
     transaction_amount FLOAT NOT NULL,
