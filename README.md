@@ -50,4 +50,3 @@ http://localhost:8080
 servidor: mysql
 user: root
 senha: root
-```
